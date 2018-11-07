@@ -79,8 +79,54 @@ class LList:
             p = p.next
 
 
+class LList1(LList):
+    """Tail node"""
+    def __init__(self):
+        super(LList1, self).__init__()
+        self._rear = None
+
+    def prepend(self, elem):
+        if self._head is None:
+            self._head = LNode(elem, self._head)
+            self._rear = self._head
+        else:
+            self._head = LNode(elem, self._head)
+
+    def append(self, elem):
+        if self._head is None:
+            self._head = LNode(elem, self._head)
+            self._rear = self._head
+        else:
+            self._rear.next = LNode(elem)  # add
+            self._rear = self._rear.next  # move
+
+    def pop_last(self):
+        if self._head is None:
+            raise LinkedListUnderflow("in pop_last")
+        p = self._head
+        if p.next is None:
+            e = p.elem
+            self._head = None
+            # self._rear = None  # it can be ignored when we uniformly use _head to judge a empty linked_list
+            return e
+        while p.next.next is not None:
+            p = p.next
+        e = p.next.elem
+        self._rear = p
+        p.next = None
+        return e
+
+
 if __name__ == "__main__":
-    mlist1 = LList()
+    mlist = LList()
     for i in range(10):
+        mlist.append(i)
+    mlist.printall()
+
+    mlist1 = LList1()
+    mlist1.prepend(99)
+    for i in range(11, 20):
         mlist1.append(i)
-    mlist1.printall()
+    for x in mlist1.filter(lambda y: y % 2 == 0):
+        print(x, end=' ')
+    print()
