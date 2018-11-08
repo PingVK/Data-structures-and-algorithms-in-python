@@ -78,6 +78,15 @@ class LList:
             yield p.elem
             p = p.next
 
+    def rev(self):
+        p = None
+        while self._head is not None:
+            q = self._head
+            self._head = q.next
+            q.next = p
+            p = q
+        self._head = p
+
 
 class LList1(LList):
     """Tail node"""
@@ -116,6 +125,9 @@ class LList1(LList):
         p.next = None
         return e
 
+    def rev(self):
+        self._rear = self._head
+        LList.rev(self)
 
 class LCList:
     """Cyclic single linked list"""
@@ -159,6 +171,17 @@ class LCList:
             else:
                 print(p.elem, end=', ')
             p = p.next
+
+    def rev(self):
+        p, end = self._rear, self._rear.next
+        self._rear = p.next
+        while True:
+            q = self._rear
+            self._rear = q.next
+            q.next = p
+            p = q
+            if self._rear is end:
+                break
 
 
 class DLNode(LNode):
@@ -210,6 +233,9 @@ class DLList(LList1):
             self._rear.next = None
         return e
 
+    def rev(self):
+        pass
+
 
 if __name__ == "__main__":
     mlist = LList()
@@ -228,4 +254,6 @@ if __name__ == "__main__":
     # lclist = LCList()
     # for i in range(10):
     #     lclist.append(i)
+    # lclist.printall()
+    # lclist.rev()
     # lclist.printall()
