@@ -52,23 +52,24 @@
     <session id="-1723280278">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1527" />
+          <entry key="py" value="2374" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="1527" />
+          <entry key="Python" value="2374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
@@ -81,14 +82,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+            <state relative-caret-position="317">
+              <caret line="170" column="21" lean-forward="true" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
               <folding>
-                <marker date="1541579057651" expanded="true" signature="12:17" ph="..." />
-                <marker date="1541579057651" expanded="true" signature="146:151" ph="..." />
-                <marker date="1541579057651" expanded="true" signature="170:175" ph="..." />
-                <marker date="1541579057651" expanded="true" signature="1326:1465" ph="..." />
-                <marker date="1541579057651" expanded="true" signature="2910:3922" ph="..." />
+                <marker date="1541660780690" expanded="true" signature="12:17" ph="..." />
+                <marker date="1541660780690" expanded="true" signature="146:151" ph="..." />
+                <marker date="1541660780690" expanded="true" signature="170:175" ph="..." />
+                <marker date="1541660780690" expanded="true" signature="1326:1465" ph="..." />
+                <marker date="1541660780690" expanded="true" signature="2910:5200" ph="..." />
+                <marker date="1541660780690" expanded="true" signature="4123:5200" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +138,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,19 +206,26 @@
       <option name="project" value="LOCAL" />
       <updated>1541573212997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cyclic single linked list">
+      <created>1541579130893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541579130893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16487935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16689008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,19 +251,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tail node linked_list" />
-    <option name="LAST_COMMIT_MESSAGE" value="tail node linked_list" />
+    <MESSAGE value="Cyclic single linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cyclic single linked list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+        <state relative-caret-position="317">
+          <caret line="170" column="21" lean-forward="true" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
           <folding>
-            <marker date="1541579057651" expanded="true" signature="12:17" ph="..." />
-            <marker date="1541579057651" expanded="true" signature="146:151" ph="..." />
-            <marker date="1541579057651" expanded="true" signature="170:175" ph="..." />
-            <marker date="1541579057651" expanded="true" signature="1326:1465" ph="..." />
-            <marker date="1541579057651" expanded="true" signature="2910:3922" ph="..." />
+            <marker date="1541660780690" expanded="true" signature="12:17" ph="..." />
+            <marker date="1541660780690" expanded="true" signature="146:151" ph="..." />
+            <marker date="1541660780690" expanded="true" signature="170:175" ph="..." />
+            <marker date="1541660780690" expanded="true" signature="1326:1465" ph="..." />
+            <marker date="1541660780690" expanded="true" signature="2910:5200" ph="..." />
+            <marker date="1541660780690" expanded="true" signature="4123:5200" ph="..." />
           </folding>
         </state>
       </provider>
