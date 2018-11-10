@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d7515b9-52f1-46e2-b7ff-ff3742cf47c1" name="Default Changelist" comment="josephus problem" />
+    <list default="true" id="3d7515b9-52f1-46e2-b7ff-ff3742cf47c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort_algorithms.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +54,25 @@
     <session id="-1723280278">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="5" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4844" />
+          <entry key="py" value="4848" />
           <entry key="txt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="103" />
-          <entry key="Python" value="4844" />
+          <entry key="Python" value="4848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -82,7 +86,7 @@
           <entry key="git.branch.checkout.revision" value="1" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.delete.local" value="1" />
-          <entry key="git.branch.delete.remote" value="1" />
+          <entry key="git.branch.delete.remote" value="2" />
           <entry key="git.branch.merge" value="1" />
           <entry key="git.branch.rebase" value="1" />
         </counts>
@@ -104,15 +108,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+            <state relative-caret-position="569">
+              <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
               <folding>
-                <marker date="1541847596470" expanded="true" signature="12:17" ph="..." />
-                <marker date="1541847596470" expanded="true" signature="146:151" ph="..." />
-                <marker date="1541847596470" expanded="true" signature="170:175" ph="..." />
-                <marker date="1541847596470" expanded="true" signature="1326:1465" ph="..." />
-                <marker date="1541847596470" expanded="true" signature="4164:6756" ph="..." />
-                <marker date="1541847596470" expanded="true" signature="5646:6756" ph="..." />
+                <marker date="1541864640302" expanded="true" signature="12:17" ph="..." />
+                <marker date="1541864640302" expanded="true" signature="146:151" ph="..." />
+                <marker date="1541864640302" expanded="true" signature="170:175" ph="..." />
+                <marker date="1541864640302" expanded="true" signature="1326:1465" ph="..." />
+                <marker date="1541864640302" expanded="true" signature="4165:6757" ph="..." />
+                <marker date="1541864640302" expanded="true" signature="5647:6757" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,14 +124,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sort_algorithms.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Josephus_question.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="464">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -154,8 +162,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sort.py" />
-        <option value="$PROJECT_DIR$/LinkedList.py" />
         <option value="$PROJECT_DIR$/Josephus_question.py" />
+        <option value="$PROJECT_DIR$/Sort_algorithms.py" />
+        <option value="$PROJECT_DIR$/LinkedList.py" />
       </list>
     </option>
   </component>
@@ -324,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541847641896</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="josephus problem">
+      <created>1541864191108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541864191108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -340,7 +356,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.17761394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.16957104" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.16957104" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,7 +370,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.37181208" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32885906" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32885906" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -421,7 +437,8 @@
     <MESSAGE value="double linked list" />
     <MESSAGE value="add function: rev()" />
     <MESSAGE value="sort fuc()" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort fuc()" />
+    <MESSAGE value="josephus problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="josephus problem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1538400531/_ast.py">
@@ -439,30 +456,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sort.py" />
     <entry file="file://$PROJECT_DIR$/Josephus_question.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="464">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sort_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="569">
+          <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
           <folding>
-            <marker date="1541847596470" expanded="true" signature="12:17" ph="..." />
-            <marker date="1541847596470" expanded="true" signature="146:151" ph="..." />
-            <marker date="1541847596470" expanded="true" signature="170:175" ph="..." />
-            <marker date="1541847596470" expanded="true" signature="1326:1465" ph="..." />
-            <marker date="1541847596470" expanded="true" signature="4164:6756" ph="..." />
-            <marker date="1541847596470" expanded="true" signature="5646:6756" ph="..." />
+            <marker date="1541864640302" expanded="true" signature="12:17" ph="..." />
+            <marker date="1541864640302" expanded="true" signature="146:151" ph="..." />
+            <marker date="1541864640302" expanded="true" signature="170:175" ph="..." />
+            <marker date="1541864640302" expanded="true" signature="1326:1465" ph="..." />
+            <marker date="1541864640302" expanded="true" signature="4165:6757" ph="..." />
+            <marker date="1541864640302" expanded="true" signature="5647:6757" ph="..." />
           </folding>
         </state>
       </provider>

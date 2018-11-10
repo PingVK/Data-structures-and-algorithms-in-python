@@ -166,6 +166,7 @@ class LList1(LList):
         self._rear = self._head
         LList.rev(self)
 
+
 class LCList:
     """Cyclic single linked list"""
     def __init__(self):
