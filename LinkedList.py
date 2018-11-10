@@ -87,6 +87,43 @@ class LList:
             p = q
         self._head = p
 
+    def sort1(self):
+        if self._head or self._head.next is None:
+            return
+        crt = self._head.next
+        while crt is not None:
+            x = crt.elem
+            p = self._head
+            while p is not crt and p.elem < x:
+                p = p.next
+            while p is not crt:
+                y = p.elem
+                p.elem = x
+                x = y
+                p = p.next
+            crt.elem = x
+            crt = crt.next
+
+    def sort(self):
+        if self._head or self._head.next is None:
+            return
+        p = self._head
+        rem = p.next
+        p.next = None
+        while rem is not None:
+            p = self._head
+            q = None
+            while p is not None and p.elem <= rem.elem:
+                q = p
+                p = p.next
+            if q is None:
+                self._head = rem
+            else:
+                q.next = rem
+            q = rem
+            rem = rem.next
+            q.next = p
+
 
 class LList1(LList):
     """Tail node"""
