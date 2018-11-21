@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d7515b9-52f1-46e2-b7ff-ff3742cf47c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/deng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Data_structures_and_algorithms_in_python$Josephus_question.coverage" NAME="Josephus_question Coverage Results" MODIFIED="1541863740766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_structures_and_algorithms_in_python$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1541670493553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Data_structures_and_algorithms_in_python$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1542705945421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_structures_and_algorithms_in_python$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1542789144739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_structures$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1541512744264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -55,26 +54,27 @@
     <session id="-1723280278">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="5" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5732" />
-          <entry key="txt" value="103" />
+          <entry key="py" value="6183" />
+          <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="103" />
-          <entry key="Python" value="5732" />
+          <entry key="PLAIN_TEXT" value="108" />
+          <entry key="Python" value="6183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -110,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3027">
+            <state relative-caret-position="6237">
               <caret line="297" selection-start-line="297" selection-end-line="297" />
               <folding>
                 <marker date="1541864640302" expanded="true" signature="12:17" ph="..." />
@@ -128,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/Sort_algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -136,15 +136,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+            <state relative-caret-position="324">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <marker date="1542706215163" expanded="true" signature="64:69" ph="..." />
-                <marker date="1542706215163" expanded="true" signature="89:94" ph="..." />
-                <marker date="1542706215163" expanded="true" signature="216:351" ph="..." />
-                <marker date="1542706215163" expanded="true" signature="372:411" ph="..." />
-                <marker date="1542706215163" expanded="true" signature="572:1054" ph="..." />
-                <marker date="1542706215163" expanded="true" signature="1081:1086" ph="..." />
+                <marker date="1542789332636" expanded="true" signature="64:69" ph="..." />
+                <marker date="1542789332636" expanded="true" signature="89:94" ph="..." />
+                <marker date="1542789332636" expanded="true" signature="216:351" ph="..." />
+                <marker date="1542789332636" expanded="true" signature="372:411" ph="..." />
+                <marker date="1542789332636" expanded="true" signature="572:1054" ph="..." />
+                <marker date="1542789332636" expanded="true" signature="1081:1086" ph="..." />
               </folding>
             </state>
           </provider>
@@ -208,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +219,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541864658661</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="stack">
+      <created>1542706241392</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542706241392</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,12 +414,12 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.16957104" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.16957104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,7 +496,8 @@
     <MESSAGE value="add function: rev()" />
     <MESSAGE value="sort fuc()" />
     <MESSAGE value="josephus problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="josephus problem" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1538400531/_ast.py">
@@ -508,23 +516,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort.py" />
-    <entry file="file://$PROJECT_DIR$/Sort_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Josephus_question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3027">
+        <state relative-caret-position="6237">
           <caret line="297" selection-start-line="297" selection-end-line="297" />
           <folding>
             <marker date="1541864640302" expanded="true" signature="12:17" ph="..." />
@@ -537,17 +531,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sort_algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Josephus_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        <state relative-caret-position="324">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
           <folding>
-            <marker date="1542706215163" expanded="true" signature="64:69" ph="..." />
-            <marker date="1542706215163" expanded="true" signature="89:94" ph="..." />
-            <marker date="1542706215163" expanded="true" signature="216:351" ph="..." />
-            <marker date="1542706215163" expanded="true" signature="372:411" ph="..." />
-            <marker date="1542706215163" expanded="true" signature="572:1054" ph="..." />
-            <marker date="1542706215163" expanded="true" signature="1081:1086" ph="..." />
+            <marker date="1542789332636" expanded="true" signature="64:69" ph="..." />
+            <marker date="1542789332636" expanded="true" signature="89:94" ph="..." />
+            <marker date="1542789332636" expanded="true" signature="216:351" ph="..." />
+            <marker date="1542789332636" expanded="true" signature="372:411" ph="..." />
+            <marker date="1542789332636" expanded="true" signature="572:1054" ph="..." />
+            <marker date="1542789332636" expanded="true" signature="1081:1086" ph="..." />
           </folding>
         </state>
       </provider>

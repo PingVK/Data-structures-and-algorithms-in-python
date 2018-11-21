@@ -56,3 +56,25 @@ def check_brackets(text):
     brackets = "()[]{}"
     open_bracket = "([{"
     opposite = {")": "(", "]": "{", "}": "{"}
+
+    def gen_bracket(text):
+        i, text_len = 0, len(text)
+        while True:
+            while i < text_len and text[i] not in brackets:
+                i += 1
+            if i >= text_len:
+                return
+            yield text[i], i
+            i += 1
+
+    st = SStack()
+    for br, i in gen_bracket(text):
+        if br in open_bracket:
+            st.push(br)
+        elif st.pop() != opposite[br]:
+            print("Mismatch is found at", i, "for", br)
+            return False
+    if not st.is_empty():
+        print("Some brackets are not matched at the end")
+    else:
+        print("All brackets are correctly matched")
