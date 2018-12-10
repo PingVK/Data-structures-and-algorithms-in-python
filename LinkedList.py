@@ -140,7 +140,7 @@ class LList1(LList):
 
     def append(self, elem):
         if self._head is None:
-            self._head = LNode(elem, self._head)
+            self._head = LNode(elem)
             self._rear = self._head
         else:
             self._rear.next = LNode(elem)  # add
